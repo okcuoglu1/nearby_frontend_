@@ -1,0 +1,39 @@
+@use "../assets/scss/variables" as v;
+@use "../assets/scss/mixins" as m;
+
+div.home {
+  @include m.flexbox(column, center, center, 5rem);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  div.queryForm {
+    overflow: hidden;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+    div.formTitle {
+      text-align: center;
+      padding: 10px;
+      font-size: 26px;
+      background-color: rgb(124, 20, 20);
+      color: white;
+    }
+    .form{
+      padding: 15px;
+    }
+
+    Button{
+      width: 100%;
+    }
+
+  }
+
+  div.result {
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+}
