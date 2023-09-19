@@ -4,6 +4,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import "./home.scss";
 import { getPlaces } from "../api/place-service";
+
 import { SiGooglemaps } from "react-icons/si";
 
 const Home = () => {

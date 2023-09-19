@@ -4,4 +4,5 @@ export const settings = {
   siteUrl: "http://localhost:8070/place/nearby",
   email: "okcuoglucemil@gmail.com",
   phone: "",
+  
 };
